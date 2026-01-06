@@ -17,14 +17,14 @@ body{
     background-color: #f0f0f0;
 }
 h1{
-    color: #ea1010;
+    color: #6d0ed9;
     font-family: Arial, sans-serif;
 }
 button{
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #fcfffc;
+    background-color: #d416ce;
     color: white;
     border: none;
     border-radius: 5px;
