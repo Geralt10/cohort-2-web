@@ -263,9 +263,9 @@ main .view5 .card .card1 .top {
   justify-content: flex-end;
 }
 main .view5 .card .card1 .top i {
-  background-color: rgba(83, 70, 70, 0.4549019608);
-  -webkit-backdrop-filter: blur(20px);
-          backdrop-filter: blur(20px);
+  background-color: rgba(183, 183, 183, 0.0823529412);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.5rem;
@@ -317,9 +317,9 @@ main .view5 .card .card2 .top {
   justify-content: flex-end;
 }
 main .view5 .card .card2 .top i {
-  background-color: rgba(83, 70, 70, 0.4549019608);
-  -webkit-backdrop-filter: blur(8px);
-          backdrop-filter: blur(8px);
+  background-color: rgba(183, 183, 183, 0.0823529412);
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.5rem;
@@ -371,7 +371,7 @@ main .view5 .card .card3 .top {
   justify-content: flex-end;
 }
 main .view5 .card .card3 .top i {
-  background-color: rgba(83, 70, 70, 0.4549019608);
+  background-color: rgba(183, 183, 183, 0.0823529412);
   -webkit-backdrop-filter: blur(20px);
           backdrop-filter: blur(20px);
   width: -moz-fit-content;

@@ -245,8 +245,8 @@ main {
                 @include flex(row, 1rem);
                 justify-content: flex-end;
                 i{
-                    background-color: #53464674;
-                    backdrop-filter: blur(20px);
+                    background-color: #b7b7b715;
+                    backdrop-filter: blur(15px);
                     width: fit-content;
                     padding: .5rem;
                     border: .5px solid #ffffff33;
@@ -293,8 +293,8 @@ main {
                 @include flex(row, 1rem);
                 justify-content: flex-end;
                 i{
-                    background-color: #53464674;
-                    backdrop-filter: blur(8px);
+                    background-color: #b7b7b715;
+                    backdrop-filter: blur(15px);
                     width: fit-content;
                     padding: .5rem;
                     border: .5px solid #ffffff33;
@@ -342,7 +342,7 @@ main {
                 justify-content: flex-end;
                
                  i{
-                    background-color: #53464674;
+                    background-color: #b7b7b715;
                     backdrop-filter: blur(20px);
                     width: fit-content;
                     padding: .5rem;
