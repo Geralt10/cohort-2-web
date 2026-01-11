@@ -226,7 +226,7 @@ main {
         @include flex(column, 1rem);
         .card{
             width: 100%;
-            @include flex(row, 1rem);
+            @include flex(column, 1rem);
             justify-content: space-between;
             .card1{
              width: 100%;
@@ -245,8 +245,8 @@ main {
                 @include flex(row, 1rem);
                 justify-content: flex-end;
                 i{
-                    background-color: #aeadad27;
-                    backdrop-filter: blur(8px);
+                    background-color: #53464674;
+                    backdrop-filter: blur(20px);
                     width: fit-content;
                     padding: .5rem;
                     border: .5px solid #fff;
@@ -258,7 +258,7 @@ main {
             .bottom{
                 background-color: #53464674;
                 padding: 1rem .5rem;
-                backdrop-filter: blur(20px);
+                backdrop-filter: blur(8px);
                 width: 100%;
                 border-radius: 0.7rem;
                 @include flex(row, 1rem);
@@ -293,7 +293,7 @@ main {
                 @include flex(row, 1rem);
                 justify-content: flex-end;
                 i{
-                    background-color: #aeadad27;
+                    background-color: #53464674;
                     backdrop-filter: blur(8px);
                     width: fit-content;
                     padding: .5rem;
@@ -306,7 +306,7 @@ main {
             .bottom{
                 background-color: #53464674;
                 padding: 1rem .5rem;
-                backdrop-filter: blur(20px);
+                backdrop-filter: blur(8px);
                 
                 border-radius: 0.7rem;
                 width: 100%;
@@ -341,7 +341,7 @@ main {
                 @include flex(row, 1rem);
                 justify-content: flex-end;
                 i{
-                    background-color: #aeadad27;
+                    background-color: #53464674;
                     backdrop-filter: blur(20px);
                     width: fit-content;
                     padding: .5rem;
@@ -479,7 +479,12 @@ main {
         .view5{
             flex-direction: column;
            .card{
-            display: flex;
+            flex-direction: row;
+            .card1,.card2,.card3{
+                .bottom{
+                    backdrop-filter: blur(20px);
+                }
+            }
            }
         }
 }
