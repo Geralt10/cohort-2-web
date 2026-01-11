@@ -269,7 +269,7 @@ main .view5 .card .card1 .top i {
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.5rem;
-  border: 0.5px solid #fff;
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   font-size: 1rem;
   font-weight: 10;
@@ -323,7 +323,7 @@ main .view5 .card .card2 .top i {
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.5rem;
-  border: 0.5px solid #fff;
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   font-size: 1rem;
   font-weight: 10;
@@ -377,7 +377,7 @@ main .view5 .card .card3 .top i {
   width: -moz-fit-content;
   width: fit-content;
   padding: 0.5rem;
-  border: 0.5px solid #fff;
+  border: 0.5px solid rgba(255, 255, 255, 0.2);
   border-radius: 50%;
   font-size: 1rem;
   font-weight: 10;
