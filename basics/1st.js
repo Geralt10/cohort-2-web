@@ -130,3 +130,6 @@
 // user.address="shaiudhas"
 // console.log(user);
 
+
+
+// js basics done
