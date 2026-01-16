@@ -8,4 +8,5 @@ btn.addEventListener('click',function(){
       let c3 = Math.floor(Math.random()*256);
 
       box.style.backgroundColor=`rgb(${c1},${c2},${c3})`;
+      box.innerHTML=`rgb(${c1},${c2},${c3})`;
 });
