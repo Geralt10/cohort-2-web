@@ -36,4 +36,7 @@ main button {
 }
 main button:active {
   scale: 0.9;
+}
+main h1 {
+  white-space: nowrap;
 }/*# sourceMappingURL=style.css.map */

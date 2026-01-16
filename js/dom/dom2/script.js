@@ -7,8 +7,8 @@ btn.addEventListener('click',function(){
     let color1 = Math.floor(Math.random()*256);
     let color2 = Math.floor(Math.random()*256);
     let color3 = Math.floor(Math.random()*256);
-    let x = Math.floor(Math.random()*90);
-    let y = Math.floor(Math.random()*90);
+    let x = Math.floor(Math.random()*100);
+    let y = Math.floor(Math.random()*100);
     circle.style.width="50px";
     circle.style.height="50px";
     circle.style.border="none";
