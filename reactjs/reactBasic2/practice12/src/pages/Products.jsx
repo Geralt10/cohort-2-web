@@ -7,10 +7,10 @@ const Products = () => {
 
   return (
     <div className="w-full min-h-screen flex flex-wrap gap-10 px-10 py-10 justify-center bg-black">
-      {productData.map((elem) => (
+      {productData.map((elem,idx) => (
         <Link
           to={`/products/productDetails/${elem.id}`}
-          key={elem.id}
+          key={idx}
         >
           <div className="w-72 bg-zinc-800 rounded-2xl p-4 hover:scale-105 transition">
             <img
